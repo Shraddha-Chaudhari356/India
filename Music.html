@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music of India</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff9933, #ffffff, #138808);
+      color: black;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 10px 0;
+    }
+
+    nav {
+      background-color: #138808;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #8B0000;
+    }
+
+    .music-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .music-card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .music-card img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Music of India</h1>
+    <p>Discover the diverse traditions of Indian classical and folk music</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="culture.html">Culture</a>
+    <a href="dance.html">Dance</a>
+    <a href="language.html">Language</a>
+    <a href="states.html">States</a>
+    <a href="food.html">Food</a>
+    <a href="places.html">Tourism</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Classical Music of India</h2>
+    <div class="music-grid">
+      <div class="music-card">
+        <a href="https://en.wikipedia.org/wiki/Hindustani_classical_music" target="_blank">
+          <img src="Hindustani Music.jpg" alt="Hindustani Music">
+        </a>
+        <h3>Hindustani Music</h3>
+        <p>North Indian classical music with emphasis on improvisation and raga-based melodies.</p>
+      </div>
+      <div class="music-card">
+        <a href="https://en.wikipedia.org/wiki/Carnatic_music" target="_blank">
+          <img src="classical Music.png" alt="Carnatic Music">
+        </a>
+        <h3>Carnatic Music</h3>
+        <p>South Indian classical music known for its complex compositions and devotional themes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Folk Music of India</h2>
+    <div class="music-grid">
+      <div class="music-card">
+        <a href="https://en.wikipedia.org/wiki/Bauls" target="_blank">
+          <img src="baul.jpeg" alt="Baul Music">
+        </a>
+        <h3>Baul Music</h3>
+        <p>Spiritual folk music from Bengal performed by mystic minstrels called Bauls.</p>
+      </div>
+      <div class="music-card">
+        <a href="https://en.wikipedia.org/wiki/Bihu_dance#Music" target="_blank">
+          <img src="bihu.jpeg" alt="Bihu Music">
+        </a>
+        <h3>Bihu Music</h3>
+        <p>Traditional Assamese music played during Bihu festivals, accompanied by dhol and pepa.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Designed by S2P | Music of India
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<html >
+<head>
+  <title>India - Culture</title>
+  <style>
+    /* Basic Page Style */
+   body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    /* Header Section (Top with flag colors) */
+    header {
+      background: linear-gradient(to right, #ff9933, #ffffff, #138808);
+      color: black;
+      padding: 4px;
+      text-align: center;
+    }
+
+    header img {
+      width: 80px;
+      vertical-align: middle;
+    }
+
+    marquee {
+    font-size: 24px;
+    color: black; /* Saffron/Orange – cultural and vibrant */
+}
+
+    /* Navigation Bar Style */
+    nav {
+      background-color: #138808;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+   nav a {
+      color: #fff;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+
+    nav a:hover {
+      background: #555; /* Hover effect */
+    }
+
+     main {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+    /* Each Section Style */
+    section {
+      scroll-snap-align: start;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 30px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+      color: #222;
+    }
+      #culture    { background-color: #ffe4b5; } /* Moccasin */
+    #language   { background-color: #e0ffff; } /* Light Cyan */
+    #states     { background-color: #fffacd; } /* Lemon Chiffon */
+    #districts  { background-color: #e6e6fa; } /* Lavender */
+    #food       { background-color: #ffdab9; } /* Peach Puff */
+    #places     { background-color: #d0f0c0; } /* Tea Green */
+    #currency   { background-color: #fafad2; } /* Light Goldenrod Yellow */
+    #population { background-color: #f5f5dc; } /* Beige */
+    #capital    { background-color: #e0ffff; } /* Light Cyan */
+    #economy    { background-color: #f0e68c; } /* Khaki */
+    #symbols    { background-color: #fbeec1; } /* Cream Yellow */
+    #contact    { background-color: #e6ffe6; } /* Light Mint */
+
+    .scroll-slide section {
+  display: none;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 0.6s ease;
+  position: absolute;
+  width: 100%;
+  top: 160px; /* distance below header/nav */
+  left: 0;
+  z-index: 1;
+}
+
+/* Show active section */
+.scroll-slide section.active {
+  display: block;
+  opacity: 1;
+  transform: translateX(0);
+  z-index: 2;
+}
+
+/* Container must be positioned relative */
+.scroll-slide {
+  position: relative;
+  height: 500px; /* adjust to your preferred height */
+  overflow: hidden;
+}
+
+
+    /* Section Title Style */
+    h2 {
+      color: #004080; /* Dark blue */
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Footer Style */
+    footer {
+      background-color:green;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    </style>
+</head>
+
+<body style="background-color: #f0e68c;">
+<header id="Home">
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 20px;">
+    <!-- Logo on the left -->
+    <img src="logo.png" alt="Indian Places" style="width: 100px; height: 120px;">
+
+    <!-- Text in the center -->
+    <div style="flex: 1; text-align: center;">
+      <h1>India - Economy</h1>
+      <p>Explore India's culture, states, food, economy and more...</p>
+    </div>
+    
+    <!-- Empty block to balance spacing (optional) -->
+    <div style="width: 100px;"></div>
+  </div>
+</header>
+
+  <marquee style="background-color: hsl(27, 94%, 47%);">
+     👨🏽‍🤝‍👨🏽"India is the world’s fifth-largest economy, rapidly rising as a global powerhouse."👨🏽‍🤝‍👨🏽</marquee>
+
+
+  <!-- Navigation Links -->
+  <nav>
+    <a href="index.html">Go Back</a>
+    <a href="culture.html">Culture</a>
+    <a href="language.html">Language</a>
+    <a href="states.html">States</a>
+    <a href="districts.html">Districts</a>
+    <a href="food.html">Food</a>
+    <a href="places.html">Tourism</a>
+    <a href="currency.html">Currency</a>
+    <a href="population.html">Population</a>
+    <a href="capital.html">Capital</a>
+    <a href="economy.html">Economy</a>
+    <a href="symbol.html">Symbols</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+<main id="scrollContainer">
+ <section id="Agriculture" style="background-color:  #fbeec1;">
+    <h2>Agriculture</h2>
+    <center><p><b>"Agriculture is the backbone of the Indian economy, employing over half of the population."</b></p></center>
+  </section>
+
+  <section id="Technical"style="background-color: #e6ffe6;">
+    <h2>Technical</h2>
+    <center><p><b>"India’s IT and software services industry remains a major contributor to exports and employment."</b></p></center>
+  </section>
+
+  <section id="Industry" style="background-color: #d0f0c0;">
+    <h2>Industry</h2>
+    <center><p><b>Industry is a key pillar of the Indian economy, driving growth, employment, and innovation."</b></p></center>
+    </section>
+
+    <section id="Exports" style="background-color: #d0f0c0;">
+    <h2>Exports</h2>
+    <center><p><b>"Exports are a vital engine of India’s economic growth, earning valuable foreign exchange."</b></p></center>
+    </section>
+   </main>
+
+   <footer>
+    Designed by S2P
+  </footer>
+
+</body>
+</html>

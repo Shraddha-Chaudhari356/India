@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Festivals of India</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8dc;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff9933, #ffffff, #138808);
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #000;
+    }
+
+    nav {
+      background-color: #138808;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #0c6407;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #b22222;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .festival-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .festival-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .festival-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .festival-card h3 {
+      margin-top: 15px;
+      color: #006400;
+    }
+
+    footer {
+      background-color: #138808;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Festivals of India</h1>
+    <p>Celebrate the spirit and culture of India through its vibrant festivals</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="languages.html">Languages</a>
+    <a href="districts.html">Districts</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Major Indian Festivals</h2>
+    <div class="festival-grid">
+      <div class="festival-card">
+        <img src="diwali.jpeg" alt="Diwali">
+        <h3>Diwali</h3>
+        <p>Festival of Lights celebrated across India with lamps, sweets, and fireworks.</p>
+      </div>
+      <div class="festival-card">
+        <img src="Holi.jpeg" alt="Holi">
+        <h3>Holi</h3>
+        <p>The festival of colors, marking the victory of good over evil and spring's arrival.</p>
+      </div>
+      <div class="festival-card">
+        <img src="Eid.jpeg" alt="Eid">
+        <h3>Eid</h3>
+        <p>A significant festival for Muslims, celebrated with prayers, charity, and feasts.</p>
+      </div>
+      <div class="festival-card">
+        <img src="pongal.jpeg" alt="Pongal">
+        <h3>Pongal</h3>
+        <p>A harvest festival celebrated mainly in Tamil Nadu with traditional foods and rituals.</p>
+      </div>
+      <div class="festival-card">
+        <img src="bihu.jpeg" alt="Bihu">
+        <h3>Bihu</h3>
+        <p>The Assamese festival celebrating harvest, fertility, and cultural identity.</p>
+      </div>
+      <div class="festival-card">
+        <img src="christmas.jpeg" alt="Christmas">
+        <h3>Christmas</h3>
+        <p>Celebrated by Christians in India to commemorate the birth of Jesus Christ.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Incredible India | Festivals Page
+  </footer>
+
+</body>
+</html>
